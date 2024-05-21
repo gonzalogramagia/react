@@ -1,7 +1,5 @@
 import {
     gem,
-    javascript,
-    html,
     htmlwhite,
     csswhite,
     jswhite,
@@ -10,20 +8,7 @@ import {
     gitwhite,
     tailwindwhite,
     framermotionwhite,
-    css,
-    reactjs,
-    tailwind,
-    firebase,
-    git,
-    figma,
-    next,
-    egghead,
-    scrimba,
-    freecodecamp,
-    jsmastery,
     notes,
-    underconstruction,
-    threejs,
   } from "../assets";
 
   
@@ -37,10 +22,6 @@ import {
       id: "works",
       title: "Works",
     },
-    // {
-    //   id: "skills",
-    //   title: "Skills",
-    // },
     {
       id: "contact",
       title: "Contact",
@@ -97,41 +78,6 @@ import {
     }
   ];
   
-  // const skills = [
-  //   {
-  //     title: "Next.js 13, TailwindCSS & Material UI",
-  //     link: "https://www.youtube.com/watch?v=wm5gMKuwSYk",
-  //     company_name: "JavaScript Mastery",
-  //     icon: jsmastery,
-  //     iconBg: "#0b0a25",
-  //     date: "June 2023",
-  //     points: [
-
-  //     ],
-  //   },
-  //   {
-  //     title: "Frontend Developer Career Path",
-  //     link: "https://scrimba.com/learn/frontend",
-  //     company_name: "Scrimba",
-  //     icon: scrimba,
-  //     iconBg: "#0b0a25",
-  //     date: "March 2023 - May 2023",
-  //     points: [
-  //       "HTML 5","CSS 3", "Responsive design","Advanced JavaScript", "Working with APIs","Advanced React JS"
-  //     ],
-  //   },
-  //   {
-  //     title: "JavaScript Programming",
-  //     link: "https://www.youtube.com/watch?v=jS4aFq5-91M",
-  //     company_name: "freeCodeCamp",
-  //     icon: freecodecamp,
-  //     iconBg: "#0b0a25",
-  //     date: "Feb 2023 - Feb 2023",
-  //     points: [
-
-  //     ],
-  //   },
-  // ];
 
 const projects = [
     {
@@ -211,4 +157,4 @@ const projects = [
     }
   ];
   
-  export { services, technologies, skills, projects };
+  export { services, technologies, projects };
