@@ -37,7 +37,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] mx-auto leading-[30px] sm:w-[100%] md:w-[62%]'
       >
-        Web developer from Córdoba, Argentina,
+        [Former] Web developer from Córdoba, Argentina,
         who loves challenging projects and wants to 
         keep leveling up his coding skills
       </motion.p>
