@@ -12,7 +12,7 @@ during the **[Build and Deploy an Amazing 3D Web Developer Portfolio in React JS
 
 📌 **LIVE DEMO: _https://www.gonza.works/_**
 
-[![Personal Website Demo Preview](https://i.postimg.cc/HkmHQMPK/preview-demo.png)](https://www.gonza.works/)
+[![Personal Website Demo Preview](https://i.ibb.co/sWn312H/personal-website-demo.png)](https://www.gonza.works/)
 
 <br><br><br>
 

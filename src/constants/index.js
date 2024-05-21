@@ -127,7 +127,7 @@ const projects = [
           color: "green-text-gradient",
         },
       ],
-      image: "https://i.postimg.cc/sgsv7wXt/links-demo.png",
+      image: "https://i.ibb.co/2yXXFZ0/links-demo.png",
       live_demo_link: "https://links.gonza.works/",
       source_code_link: "https://github.com/gonzagramaglia/links",
     },
