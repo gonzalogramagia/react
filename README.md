@@ -1,4 +1,4 @@
-## Hey, I'm **[Gonza](https://www.gonza.works/)**
+## Hey, I'm **[Gonza](https://gonza.gr/)**
 It's good to see that you have been interested in understanding this repository.
 <br><br>
 
@@ -10,9 +10,9 @@ during the **[Build and Deploy an Amazing 3D Web Developer Portfolio in React JS
 
 
 
-📌 **LIVE DEMO: _https://www.gonza.works/_**
+📌 **LIVE DEMO: _https://front.gonza.gr/_**
 
-[![Personal Website Demo Preview](https://i.ibb.co/sWn312H/personal-website-demo.png)](https://www.gonza.works/)
+[![Personal Website Demo Preview](https://i.ibb.co/sWn312H/personal-website-demo.png)](https://front.gonza.gr/)
 
 <br><br><br>
 
