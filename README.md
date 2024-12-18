@@ -1,4 +1,4 @@
-## Hey there, I'm gonza
+## Hey, I'm **[Gonza](https://gonza.gr/)**
 
 It's good to see that you have been interested in understanding this repository.
 <br><br>

@@ -7,7 +7,7 @@ import {
   nextwhite,
   gitwhite,
   tailwindwhite,
-  framermotionwhite,
+  reduxwhite,
   notes,
   underconstruction,
 } from "../assets";
@@ -72,8 +72,8 @@ const technologies = [
     icon: tailwindwhite,
   },
   {
-    name: "Framer Motion",
-    icon: framermotionwhite,
+    name: "Redux",
+    icon: reduxwhite,
   },
 ];
 
@@ -176,8 +176,8 @@ const projects = [
     source_code_link: "https://github.com/gonzagramaglia/mern-todo",
   },
   {
-    name: "Blog",
-    description: `My first complex full stack app [under construction]`,
+    name: "Blog [under construction]",
+    description: `My first complex full stack app`,
     tags: [
       {
         name: "mongodb",
@@ -193,14 +193,6 @@ const projects = [
       },
       {
         name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "google oauth",
         color: "green-text-gradient",
       },
     ],
