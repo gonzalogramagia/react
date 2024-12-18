@@ -176,7 +176,7 @@ const projects = [
     source_code_link: "https://github.com/gonzagramaglia/mern-todo",
   },
   {
-    name: "Blog [under construction]",
+    name: "Blog [coming soon]",
     description: `My first complex full stack app`,
     tags: [
       {
