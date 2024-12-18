@@ -8,19 +8,13 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const TechCard = ({ index, name, icon }) => (
-  <Tilt className='w-[55px] sm:w-[95px]' options={{scale: 1, max: 8}}>
+  <Tilt className="w-[55px] sm:w-[95px]" options={{ scale: 1, max: 8 }}>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.33, 0.5)}
-      className='w-full p-[1px] rounded-[20px]'
+      className="w-full p-[1px] rounded-[20px]"
     >
-      <div
-        className='min-h-[100px] flex justify-center items-center flex-col'
-      >
-        <img
-          src={icon}
-          alt={name}
-          className='w-16 h-16 object-contain'
-        />
+      <div className="min-h-[100px] flex justify-center items-center flex-col">
+        <img src={icon} alt={name} className="w-16 h-16 object-contain" />
       </div>
     </motion.div>
   </Tilt>
@@ -35,14 +29,13 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] mx-auto leading-[30px] sm:w-[100%] md:w-[62%]'
+        className="mt-4 text-secondary text-[17px] mx-auto leading-[30px] sm:w-[100%] md:w-[62%]"
       >
-        [Former] Web developer from Córdoba, Argentina,
-        who loves challenging projects and wants to 
-        keep leveling up his coding skills
+        Web developer from Córdoba, Argentina, who loves challenging projects
+        and wants to keep leveling up his coding skills
       </motion.p>
 
-      <div className='mt-16 mb-[-36px] flex flex-wrap gap-10 justify-center'>
+      <div className="mt-16 mb-[-36px] flex flex-wrap gap-10 justify-center">
         {technologies.map((tech, index) => (
           <TechCard key={tech.name} index={index} {...tech} />
         ))}
