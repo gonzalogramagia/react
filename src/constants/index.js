@@ -9,7 +9,6 @@ import {
   tailwindwhite,
   reduxwhite,
   notes,
-  underconstruction,
 } from "../assets";
 
 export const navLinks = [
@@ -176,7 +175,7 @@ const projects = [
     source_code_link: "https://github.com/gonzagramaglia/mern-todo",
   },
   {
-    name: "Blog [coming soon]",
+    name: "Blog",
     description: `My first complex full stack app`,
     tags: [
       {
@@ -196,8 +195,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: underconstruction,
-    live_demo_link: "https://github.com/gonzagramaglia/mern-blog",
+    image: "https://i.postimg.cc/XvKV64k7/mern-blog.png",
+    live_demo_link: "https://mern-blog-dbgd.onrender.com/",
     source_code_link: "https://github.com/gonzagramaglia/mern-blog",
   },
 ];
