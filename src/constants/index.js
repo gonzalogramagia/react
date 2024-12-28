@@ -57,10 +57,6 @@ const technologies = [
     icon: jswhite,
   },
   {
-    name: "TypeScript",
-    icon: typescriptwhite,
-  },
-  {
     name: "React JS",
     icon: reactwhite,
   },
@@ -71,6 +67,10 @@ const technologies = [
   {
     name: "Git",
     icon: gitwhite,
+  },
+  {
+    name: "TypeScript",
+    icon: typescriptwhite,
   },
   {
     name: "Tailwind CSS",
