@@ -13,6 +13,7 @@ import nextwhite from "./tech/next-white.png";
 import tailwindwhite from "./tech/tailwind-white.png";
 import gitwhite from "./tech/git-white.png";
 import reduxwhite from "./tech/redux-white.png";
+import typescriptwhite from "./tech/typescript-white.png";
 
 import chatgpt from "./tech/chatgpt.png";
 import vscode from "./tech/vscode.png";
@@ -56,6 +57,7 @@ export {
   reactwhite,
   gitwhite,
   reduxwhite,
+  typescriptwhite,
   git,
   html,
   javascript,

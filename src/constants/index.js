@@ -8,6 +8,7 @@ import {
   gitwhite,
   tailwindwhite,
   reduxwhite,
+  typescriptwhite,
   notes,
   underconstruction,
 } from "../assets";
@@ -54,6 +55,10 @@ const technologies = [
   {
     name: "JavaScript",
     icon: jswhite,
+  },
+  {
+    name: "TypeScript",
+    icon: typescriptwhite,
   },
   {
     name: "React JS",
