@@ -121,11 +121,11 @@ const projects = [
       },
       {
         name: "css-animations",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwindcss",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: "https://i.ibb.co/2yXXFZ0/links-demo.png",
@@ -148,7 +148,7 @@ const projects = [
       },
       {
         name: "material-ui",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: "https://i.postimg.cc/8c2zFQ9F/social-demo.png",
