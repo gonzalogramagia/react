@@ -83,7 +83,7 @@ const technologies = [
 
 const projects = [
   {
-    name: "Todo",
+    name: "To-do",
     description: `Simple CRUD fullstack app`,
     tags: [
       {
@@ -100,15 +100,15 @@ const projects = [
       },
       {
         name: "tailwindcss",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "chakra-ui",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "node",
         color: "green-text-gradient",
+      },
+      {
+        name: "chakra-ui",
+        color: "orange-text-gradient",
       },
     ],
     image: "https://i.postimg.cc/RZNP7Ws3/temp-Image2-BBn-F3.avif",
@@ -117,6 +117,44 @@ const projects = [
   },
   {
     name: "Blog",
+    description: `Moderate CRUD fullstack app`,
+    tags: [
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "google-oauth",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: "https://i.postimg.cc/XvKV64k7/mern-blog.png",
+    live_demo_link: "https://mern-blog-dbgd.onrender.com/",
+    source_code_link: "https://github.com/gonzagramaglia/mern-blog",
+  },
+  {
+    name: "E-commerce [soon]",
     description: `Complex CRUD fullstack app`,
     tags: [
       {
@@ -132,45 +170,8 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "blue-text-gradient",
-      },
-      {
         name: "node",
         color: "green-text-gradient",
-      },
-      {
-        name: "google-oauth",
-        color: "green-text-gradient",
-      },
-    ],
-    image: "https://i.postimg.cc/XvKV64k7/mern-blog.png",
-    live_demo_link: "https://mern-blog-dbgd.onrender.com/",
-    source_code_link: "https://github.com/gonzagramaglia/mern-blog",
-  },
-  {
-    name: "Shop [coming soon]",
-    description: `Under construction`,
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "blue-text-gradient",
       },
       {
         name: "stripe",
@@ -178,8 +179,8 @@ const projects = [
       },
     ],
     image: underconstruction,
-    live_demo_link: "https://github.com/gonzagramaglia/shop",
-    source_code_link: "https://github.com/gonzagramaglia/shop",
+    live_demo_link: "https://github.com/gonzagramaglia/mern-ecommerce",
+    source_code_link: "https://github.com/gonzagramaglia/mern-ecommerce",
   },
 ];
 
