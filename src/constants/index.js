@@ -83,7 +83,7 @@ const technologies = [
 
 const projects = [
   {
-    name: "To-do",
+    name: "Todo",
     description: `Simple CRUD fullstack app`,
     tags: [
       {
@@ -99,16 +99,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "tailwindcss",
-        color: "orange-text-gradient",
-      },
-      {
         name: "node",
         color: "green-text-gradient",
       },
       {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
         name: "chakra-ui",
-        color: "orange-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: "https://i.postimg.cc/RZNP7Ws3/temp-Image2-BBn-F3.avif",
@@ -136,17 +136,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "google-oauth",
-        color: "green-text-gradient",
-      },
-
-      {
         name: "redux",
         color: "blue-text-gradient",
       },
       {
         name: "tailwindcss",
-        color: "orange-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: "https://i.postimg.cc/XvKV64k7/mern-blog.png",
@@ -154,7 +149,7 @@ const projects = [
     source_code_link: "https://github.com/gonzagramaglia/mern-blog",
   },
   {
-    name: "E-commerce [soon]",
+    name: "Ecommerce [soon]",
     description: `Complex CRUD fullstack app`,
     tags: [
       {
