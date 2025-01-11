@@ -149,7 +149,7 @@ const projects = [
     source_code_link: "https://github.com/gonzagramaglia/mern-blog",
   },
   {
-    name: "Ecommerce [soon]",
+    name: "Ecommerce",
     description: `Complex CRUD fullstack app`,
     tags: [
       {
@@ -173,10 +173,47 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: underconstruction,
-    live_demo_link: "https://github.com/gonzagramaglia/mern-ecommerce",
+    image: "https://i.ibb.co/swy8x8L/mern-ecommerce.png",
+    live_demo_link: "https://mern-ecommerce-frontend-fiz1.onrender.com",
     source_code_link: "https://github.com/gonzagramaglia/mern-ecommerce",
   },
+  // {
+  //   name: "Dashboard [soon]",
+  //   description: `Complex CRUD fullstack app`,
+  //   tags: [
+  //     {
+  //       name: "postgres",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "express",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "node",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "next",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "aws",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
+  //   image: underconstruction,
+  //   live_demo_link: "https://github.com/gonzagramaglia/pern-dashboard",
+  //   source_code_link: "https://github.com/gonzagramaglia/pern-dashboard",
+  // },
 ];
 
 export { services, technologies, projects };
