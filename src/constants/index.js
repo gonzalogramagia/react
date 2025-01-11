@@ -201,12 +201,19 @@ const projects = [
         name: "node",
         color: "green-text-gradient",
       },
+      {
+        name: "redux",
+        color: "blue-text-gradient",
+      },
 
       {
         name: "tailwindcss",
         color: "pink-text-gradient",
       },
-
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
       {
         name: "aws",
         color: "orange-text-gradient",
