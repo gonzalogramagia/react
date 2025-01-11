@@ -179,7 +179,7 @@ const projects = [
   },
   {
     name: "Dashboard [soon]",
-    description: `Fully project management app`,
+    description: `Entire project management app`,
     tags: [
       {
         name: "react",
@@ -216,39 +216,40 @@ const projects = [
     live_demo_link: "https://github.com/gonzagramaglia/pern-dashboard",
     source_code_link: "https://github.com/gonzagramaglia/pern-dashboard",
   },
-  {
-    name: "Chatbot [soon]",
-    description: `Entire, modern SaaS platform`,
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "trpc",
-        color: "green-text-gradient",
-      },
-      {
-        name: "prisma",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: underconstruction,
-    live_demo_link: "https://github.com/gonzagramaglia/saas-platform",
-    source_code_link: "https://github.com/gonzagramaglia/saas-platform",
-  },
+  // },
+  // {
+  //   name: "Chatbot [soon]",
+  //   description: `Entire, modern SaaS platform`,
+  //   tags: [
+  //     {
+  //       name: "typescript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "next",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "trpc",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "prisma",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: underconstruction,
+  //   live_demo_link: "https://github.com/gonzagramaglia/saas-platform",
+  //   source_code_link: "https://github.com/gonzagramaglia/saas-platform",
+  // },
 ];
 
 export { services, technologies, projects };
