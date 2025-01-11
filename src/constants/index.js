@@ -177,43 +177,43 @@ const projects = [
     live_demo_link: "https://mern-ecommerce-frontend-fiz1.onrender.com",
     source_code_link: "https://github.com/gonzagramaglia/mern-ecommerce",
   },
-  // {
-  //   name: "Dashboard [soon]",
-  //   description: `Complex CRUD fullstack app`,
-  //   tags: [
-  //     {
-  //       name: "postgres",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "express",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "node",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "next",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "aws",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: underconstruction,
-  //   live_demo_link: "https://github.com/gonzagramaglia/pern-dashboard",
-  //   source_code_link: "https://github.com/gonzagramaglia/pern-dashboard",
-  // },
+  {
+    name: "Dashboard [soon]",
+    description: `Fully project management app deployed on AWS`,
+    tags: [
+      {
+        name: "postgres",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: underconstruction,
+    live_demo_link: "https://github.com/gonzagramaglia/pern-dashboard",
+    source_code_link: "https://github.com/gonzagramaglia/pern-dashboard",
+  },
 ];
 
 export { services, technologies, projects };
