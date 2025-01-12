@@ -284,7 +284,15 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
         name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "shadcn-ui",
         color: "pink-text-gradient",
       },
     ],
