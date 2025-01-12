@@ -298,7 +298,7 @@ const projects = [
     ],
     image: underconstruction,
     live_demo_link: "https://youtu.be/ucX2zXAZ1I0",
-    source_code_link: "https://github.com/gonzagramaglia/saas-platform",
+    source_code_link: "https://youtu.be/ucX2zXAZ1I0",
   },
 ];
 
