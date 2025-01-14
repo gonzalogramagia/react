@@ -1,5 +1,4 @@
 import {
-  gem,
   htmlwhite,
   csswhite,
   jswhite,
@@ -27,21 +26,6 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
-];
-
-const services = [
-  {
-    title: "Web Developer",
-    icon: gem,
-  },
-  {
-    title: "React Developer",
-    icon: gem,
-  },
-  {
-    title: "Frontend Developer",
-    icon: gem,
   },
 ];
 
@@ -231,7 +215,7 @@ const projects = [
   },
   {
     name: "Chatbot [soon]",
-    description: `Entire, modern SaaS platform`,
+    description: `Entire SaaS platform, powered by AI`,
     tags: [
       {
         name: "typescript",
@@ -272,4 +256,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, projects };
+export { technologies, projects };
