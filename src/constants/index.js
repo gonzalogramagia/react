@@ -9,6 +9,9 @@ import {
   tailwindwhite,
   reduxwhite,
   typescriptwhite,
+  nodejs,
+  mongodb,
+  postgres,
   underconstruction,
 } from "../assets";
 
@@ -78,6 +81,18 @@ const technologies = [
   {
     name: "Redux",
     icon: reduxwhite,
+  },
+  {
+    name: "NodeJS",
+    icon: nodejs,
+  },
+  {
+    name: "Postgres",
+    icon: postgres,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
 ];
 
@@ -177,53 +192,8 @@ const projects = [
     live_demo_link: "https://mern-ecommerce-frontend-fiz1.onrender.com",
     source_code_link: "https://github.com/gonzagramaglia/mern-ecommerce",
   },
-  // {
-  //   name: "Dashboard [soon]",
-  //   description: `Entire project management app`,
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "next",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "postgres",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "express",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "node",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "redux",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "aws",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: underconstruction,
-  //   live_demo_link: "https://github.com/gonzagramaglia/pern-dashboard",
-  //   source_code_link: "https://github.com/gonzagramaglia/pern-dashboard",
-  // },
   {
-    name: "Bookstore [soon]",
+    name: "Bookstore",
     description: `University books management system`,
     tags: [
       {
@@ -255,7 +225,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: underconstruction,
+    image: "https://i.ibb.co/GWXpWz2/bookstore.png",
     live_demo_link: "https://github.com/gonzagramaglia/bookstore",
     source_code_link: "https://github.com/gonzagramaglia/bookstore",
   },

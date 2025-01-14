@@ -34,10 +34,17 @@ import scrimba from "./company/scrimba.png";
 import freecodecamp from "./company/freecodecamp.png";
 import jsmastery from "./company/jsmastery.png";
 
+import postgres from "./tech/postgres-white-logo.png";
+import mongodb from "./tech/mongodb-white-logo.png";
+import nodejs from "./tech/nodejs-white-logo.png";
+
 import notes from "./notes.png";
 import underconstruction from "./under-construction.png";
 
 export {
+  postgres,
+  mongodb,
+  nodejs,
   logo,
   nologo,
   gem,
