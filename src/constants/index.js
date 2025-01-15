@@ -210,12 +210,12 @@ const projects = [
       },
     ],
     image: "https://i.ibb.co/GWXpWz2/bookstore.png",
-    live_demo_link: "https://github.com/gonzagramaglia/bookstore",
+    live_demo_link: "https://bookstore-one-amber.vercel.app/",
     source_code_link: "https://github.com/gonzagramaglia/bookstore",
   },
   {
     name: "Chatbot [soon]",
-    description: `Entire SaaS platform, powered by AI`,
+    description: `Entire SaaS platform powered by AI`,
     tags: [
       {
         name: "typescript",
