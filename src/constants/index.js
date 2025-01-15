@@ -144,7 +144,7 @@ const projects = [
       },
     ],
     image: "https://i.postimg.cc/XvKV64k7/mern-blog.png",
-    live_demo_link: "https://mern-blog-dbgd.onrender.com/",
+    live_demo_link: "https://blog.gonza.gr/",
     source_code_link: "https://github.com/gonzagramaglia/mern-blog",
   },
   {
@@ -173,7 +173,7 @@ const projects = [
       },
     ],
     image: "https://i.ibb.co/swy8x8L/mern-ecommerce.png",
-    live_demo_link: "https://mern-ecommerce-frontend-fiz1.onrender.com",
+    live_demo_link: "https://ecommerce.gonza.gr",
     source_code_link: "https://github.com/gonzagramaglia/mern-ecommerce",
   },
   {
@@ -210,12 +210,12 @@ const projects = [
       },
     ],
     image: "https://i.ibb.co/GWXpWz2/bookstore.png",
-    live_demo_link: "https://bookstore-one-amber.vercel.app/",
+    live_demo_link: "https://bookstore.gonza.gr/",
     source_code_link: "https://github.com/gonzagramaglia/bookstore",
   },
   {
     name: "Chatbot [soon]",
-    description: `Entire SaaS platform powered by AI`,
+    description: `SaaS platform powered by AI`,
     tags: [
       {
         name: "typescript",
@@ -252,7 +252,7 @@ const projects = [
     ],
     image: underconstruction,
     live_demo_link: "https://youtu.be/ucX2zXAZ1I0",
-    source_code_link: "https://youtu.be/ucX2zXAZ1I0",
+    source_code_link: "https://github.com/gonzagramaglia/chatbot",
   },
 ];
 
