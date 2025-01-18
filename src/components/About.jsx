@@ -20,7 +20,7 @@ const TechCard = ({ index, name, icon, level }) => (
           className="w-16 h-16 object-contain transition-all duration-300 group-hover:opacity-50"
         />
         <span className="absolute inset-0 flex justify-center items-center text-white text-sm font-medium bg-[#F6B40E] bg-opacity-70 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          +{level}
+          <strong>+{level}</strong>
         </span>
       </div>
     </motion.div>
