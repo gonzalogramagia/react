@@ -283,7 +283,7 @@ const projects = [
       },
     ],
     image: underconstruction,
-    live_demo_link: "https://github.com/gonzagramaglia/chatbot",
+    live_demo_link: "https://chatbot.gonza.gr",
     source_code_link: "https://github.com/gonzagramaglia/chatbot",
   },
 ];

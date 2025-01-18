@@ -64,6 +64,7 @@ const Navbar = () => {
               {link.url && (
                 <a
                   href="https://drive.google.com/file/d/1wIv3KIIU13_3VpgdXxAPG8ebAcRtilML/view?usp=sharing"
+                  className="md:hidden"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
