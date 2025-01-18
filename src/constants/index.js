@@ -37,50 +37,62 @@ const technologies = [
   {
     name: "HTML 5",
     icon: htmlwhite,
+    level: "90%",
   },
   {
     name: "CSS 3",
     icon: csswhite,
+    level: "80%",
   },
   {
     name: "JavaScript",
     icon: jswhite,
+    level: "70%",
   },
   {
     name: "React JS",
     icon: reactwhite,
+    level: "70%",
   },
   {
     name: "Next JS",
     icon: nextwhite,
+    level: "60%",
   },
   {
     name: "Git",
     icon: gitwhite,
+    level: "90%",
   },
   {
     name: "TypeScript",
     icon: typescriptwhite,
+    level: "70%",
   },
   {
     name: "Tailwind CSS",
     icon: tailwindwhite,
+    level: "80%",
   },
   {
     name: "Redux",
     icon: reduxwhite,
+    level: "60%",
   },
   {
     name: "NodeJS",
     icon: nodejs,
+    level: "50%",
   },
   {
     name: "Postgres",
     icon: postgres,
+    level: "40%",
   },
   {
     name: "MongoDB",
     icon: mongodb,
+    level: "55%",
   },
 ];
 

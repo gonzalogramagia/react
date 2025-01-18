@@ -7,14 +7,21 @@ import { technologies } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const TechCard = ({ index, name, icon }) => (
+const TechCard = ({ index, name, icon, level }) => (
   <Tilt className="w-[55px] sm:w-[95px]" options={{ scale: 1, max: 8 }}>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.33, 0.5)}
       className="w-full p-[1px] rounded-[20px]"
     >
-      <div className="min-h-[100px] flex justify-center items-center flex-col">
-        <img src={icon} alt={name} className="w-16 h-16 object-contain" />
+      <div className="min-h-[100px] flex justify-center items-center flex-col group relative">
+        <img
+          src={icon}
+          alt={name}
+          className="w-16 h-16 object-contain rounded-full transition-all duration-300 group-hover:opacity-50"
+        />
+        <span className="absolute inset-0 flex justify-center items-center text-white text-sm font-medium bg-black bg-opacity-70 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          {level}
+        </span>
       </div>
     </motion.div>
   </Tilt>
