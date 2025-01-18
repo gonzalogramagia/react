@@ -90,7 +90,7 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  {link.id === "cv" && (
+                  {link.url && (
                     <a
                       href="https://drive.google.com/file/d/1wIv3KIIU13_3VpgdXxAPG8ebAcRtilML/view?usp=sharing"
                       target="_blank"
@@ -99,7 +99,7 @@ const Navbar = () => {
                       {link.title}
                     </a>
                   )}
-                  {link.id !== "cv" && <a href={`#${link.id}`}>{link.title}</a>}
+                  {!link.url && <a href={`#${link.id}`}>{link.title}</a>}
                 </li>
               ))}
             </ul>

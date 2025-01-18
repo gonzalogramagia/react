@@ -18,18 +18,22 @@ export const navLinks = [
   {
     id: "cv",
     title: "Download CV",
+    url: true,
   },
   {
     id: "about",
     title: "About",
+    url: false,
   },
   {
     id: "works",
     title: "Works",
+    url: false,
   },
   {
     id: "contact",
     title: "Contact",
+    url: false,
   },
 ];
 
