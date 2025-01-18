@@ -69,8 +69,8 @@ const Works = () => {
         {/* <span className={`${styles.sectionSubText}`}><span className="font-bold">Projects say more</span> than words</span> */}
         <h2 className={`${styles.sectionHeadText} mt-6`}>Best works</h2>
         <p className="mt-3 text-secondary text-[17px] leading-[30px] mx-auto w-[83%] md:w-[40%]">
-          Each project includes a brief description along with links to GitHub
-          repositories and live demos
+          Each project includes a brief description, along with links to its
+          GitHub repository and live demo
         </p>
       </motion.div>
 
