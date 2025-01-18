@@ -37,11 +37,15 @@ import jsmastery from "./company/jsmastery.png";
 import postgres from "./tech/postgres-white-logo.png";
 import mongodb from "./tech/mongodb-white-logo.png";
 import nodejs from "./tech/nodejs-white-logo.png";
+import linux from "./tech/linux-white.png";
+import go from "./tech/go-white.png";
 
 import notes from "./notes.png";
 import underconstruction from "./under-construction.png";
 
 export {
+  linux,
+  go,
   postgres,
   mongodb,
   nodejs,

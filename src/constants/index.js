@@ -11,6 +11,8 @@ import {
   nodejs,
   mongodb,
   postgres,
+  linux,
+  go,
   underconstruction,
 } from "../assets";
 
@@ -89,6 +91,11 @@ const technologies = [
     level: "50%",
   },
   {
+    name: "Linux",
+    icon: linux,
+    level: "70%",
+  },
+  {
     name: "Postgres",
     icon: postgres,
     level: "40%",
@@ -97,6 +104,11 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
     level: "55%",
+  },
+  {
+    name: "Go",
+    icon: go,
+    level: "70%",
   },
 ];
 
