@@ -51,7 +51,7 @@ const technologies = [
   {
     name: "JavaScript",
     icon: jswhite,
-    level: "70%",
+    level: "75%",
   },
   {
     name: "React JS",
@@ -61,7 +61,7 @@ const technologies = [
   {
     name: "Next JS",
     icon: nextwhite,
-    level: "60%",
+    level: "65%",
   },
   {
     name: "Git",
