@@ -43,7 +43,10 @@ import go from "./tech/go-white.png";
 import notes from "./notes.png";
 import underconstruction from "./under-construction.png";
 
+import youtube from "./youtube-white-logo.webp";
+
 export {
+  youtube,
   linux,
   go,
   postgres,
