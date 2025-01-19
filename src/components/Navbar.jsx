@@ -61,7 +61,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              {link.url && (
+              {link.url && !showLogo && (
                 <a
                   href="https://drive.google.com/file/d/1wIv3KIIU13_3VpgdXxAPG8ebAcRtilML/view?usp=sharing"
                   className="sm:hidden md:hidden lg:block xl:block"
