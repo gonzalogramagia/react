@@ -19,7 +19,7 @@ const Footer = () => {
             href="https://www.youtube.com/@gonzagramaglia"
             target="_blank"
             rel="noopener noreferrer"
-            className="opacity-65 hover:opacity-100 mx-2"
+            className="opacity-70 hover:opacity-100 mx-2"
           >
             <img src={youtube} className="w-9 h-9" />
           </a>
