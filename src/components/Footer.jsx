@@ -1,7 +1,6 @@
 import React from "react";
 import { youtube } from "../assets";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { TbBrandYoutubeFilled } from "react-icons/tb";
 
 const Footer = () => {
   return (
@@ -14,7 +13,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-secondary hover:text-white mx-2"
           >
-            <TbBrandYoutubeFilled size={28} />
+            <img src={youtube} className="w-7 h-7" />
           </a>
           <a
             href="https://www.linkedin.com/in/gonzagramaglia/"
