@@ -8,20 +8,20 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-center items-center gap-5">
           <a
-            href="https://www.youtube.com/@gonzagramaglia"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="opacity-60 hover:opacity-100 mx-2"
-          >
-            <img src={youtube} className="w-9 h-9" />
-          </a>
-          <a
             href="https://www.linkedin.com/in/gonzagramaglia/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-white mx-2"
           >
             <FaLinkedin size={28} />
+          </a>
+          <a
+            href="https://www.youtube.com/@gonzagramaglia"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="opacity-65 hover:opacity-100 mx-2"
+          >
+            <img src={youtube} className="w-9 h-9" />
           </a>
           <a
             href="https://github.com/gonzagramaglia"
