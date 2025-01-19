@@ -11,9 +11,9 @@ const Footer = () => {
             href="https://www.youtube.com/@gonzagramaglia"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-secondary hover:text-white mx-2"
+            className="opacity-70 hover:opacity-100 mx-2"
           >
-            <img src={youtube} className="w-7 h-7" />
+            <img src={youtube} className="w-8 h-8" />
           </a>
           <a
             href="https://www.linkedin.com/in/gonzagramaglia/"
