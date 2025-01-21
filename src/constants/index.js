@@ -204,7 +204,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "usecontext-hook",
+        name: "createcontext-hook",
         color: "blue-text-gradient",
       },
     ],
@@ -270,11 +270,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "stripe",
+        name: "trpc",
         color: "green-text-gradient",
       },
       {
-        name: "trpc",
+        name: "stripe",
         color: "green-text-gradient",
       },
       {
