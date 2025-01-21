@@ -203,6 +203,10 @@ const projects = [
         name: "stripe",
         color: "green-text-gradient",
       },
+      {
+        name: "usecontext-hook",
+        color: "blue-text-gradient",
+      },
     ],
     image: "https://i.ibb.co/swy8x8L/mern-ecommerce.png",
     live_demo_link: "https://ecommerce.gonza.gr",
@@ -262,15 +266,15 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "trpc",
-        color: "green-text-gradient",
-      },
-      {
-        name: "prisma",
+        name: "postgres",
         color: "green-text-gradient",
       },
       {
         name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "trpc",
         color: "green-text-gradient",
       },
       {
