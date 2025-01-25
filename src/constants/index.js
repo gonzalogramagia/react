@@ -251,7 +251,7 @@ const projects = [
   },
   {
     name: "Chat [soon]",
-    description: `Basic but complete realtime chat app. Currently only available for web: it does not have responsive design`,
+    description: `Basic yet complete realtime chat app. Currently optimized for web only`,
     tags: [
       {
         name: "react",
