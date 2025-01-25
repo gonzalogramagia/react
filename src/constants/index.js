@@ -251,19 +251,19 @@ const projects = [
   },
   {
     name: "Movies [soon]",
-    description: `Basic yet modern app for browsing and discovering movies`,
+    description: `Basic yet modern app for browsing and discovering great movies`,
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
         name: "appwrite",
         color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
       },
     ],
     image: underconstruction,
