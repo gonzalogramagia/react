@@ -250,8 +250,8 @@ const projects = [
     source_code_link: "https://github.com/gonzagramaglia/bookstore",
   },
   {
-    name: "Messenger [soon]",
-    description: `Basic but complete realtime chat app`,
+    name: "Chat [soon]",
+    description: `Basic but complete realtime chat app. Currently only available for web: it does not have responsive design`,
     tags: [
       {
         name: "react",
