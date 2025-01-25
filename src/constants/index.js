@@ -250,21 +250,25 @@ const projects = [
     source_code_link: "https://github.com/gonzagramaglia/bookstore",
   },
   {
-    name: "Chat [soon]",
-    description: `Basic yet complete realtime chat app. Currently optimized for web only`,
+    name: "Movies [soon]",
+    description: `Basic yet modern app for browsing and discovering movies`,
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "appwrite",
         color: "green-text-gradient",
       },
     ],
     image: underconstruction,
-    live_demo_link: "https://realtime-chat.gonza.gr",
-    source_code_link: "https://github.com/gonzagramaglia/realtime-chat",
+    live_demo_link: "https://movies.gonza.gr",
+    source_code_link: "https://github.com/gonzagramaglia/movies",
   },
 ];
 
