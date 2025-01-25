@@ -250,45 +250,21 @@ const projects = [
     source_code_link: "https://github.com/gonzagramaglia/bookstore",
   },
   {
-    name: "Chatbot [soon]",
-    description: `SaaS platform powered by AI`,
+    name: "Messenger [soon]",
+    description: `Basic but complete realtime chat app`,
     tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "postgres",
+        name: "firebase",
         color: "green-text-gradient",
-      },
-      {
-        name: "trpc",
-        color: "green-text-gradient",
-      },
-      {
-        name: "stripe",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "shadcn-ui",
-        color: "pink-text-gradient",
       },
     ],
     image: underconstruction,
-    live_demo_link: "https://chatbot.gonza.gr",
-    source_code_link: "https://github.com/gonzagramaglia/chatbot",
+    live_demo_link: "https://realtime-chat.gonza.gr",
+    source_code_link: "https://github.com/gonzagramaglia/realtime-chat",
   },
 ];
 
