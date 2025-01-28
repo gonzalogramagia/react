@@ -250,7 +250,7 @@ const projects = [
     source_code_link: "https://github.com/gonzagramaglia/bookstore",
   },
   {
-    name: "Movies [soon]",
+    name: "Movies",
     description: `Basic yet modern app for browsing and discovering great movies`,
     tags: [
       {
@@ -266,9 +266,22 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: underconstruction,
+    image: "https://i.ibb.co/3TbSQFc/movies.png",
     live_demo_link: "https://movies.gonza.gr",
     source_code_link: "https://github.com/gonzagramaglia/movies",
+  },
+  {
+    name: "Project test",
+    description: `Default description`,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: underconstruction,
+    live_demo_link: "https://github.com/gonzagramaglia/",
+    source_code_link: "https://github.com/gonzagramaglia/",
   },
 ];
 
