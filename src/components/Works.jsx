@@ -31,7 +31,7 @@ const ProjectCard = ({
 
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
-            onClick={() => {
+            onClick={(e) => {
               e.stopPropagation(e);
               window.open(source_code_link, "_blank");
             }}
