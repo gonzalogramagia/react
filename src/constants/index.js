@@ -266,22 +266,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://i.ibb.co/3TbSQFc/movies.png",
+    image: "https://i.ibb.co/VjWbLYh/movies.png",
     live_demo_link: "https://movies.gonza.gr",
     source_code_link: "https://github.com/gonzagramaglia/movies",
-  },
-  {
-    name: "Project test",
-    description: `Default description`,
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: underconstruction,
-    live_demo_link: "https://github.com/gonzagramaglia/",
-    source_code_link: "https://github.com/gonzagramaglia/",
   },
 ];
 
