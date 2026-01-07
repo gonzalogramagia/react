@@ -1,6 +1,5 @@
 import React from "react";
-import { youtube } from "../assets";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-center items-center gap-5">
           <a
-            href="https://www.linkedin.com/in/gonzagramaglia/"
+            href="https://www.linkedin.com/in/gonzalogramagia/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-white mx-2"
@@ -16,15 +15,15 @@ const Footer = () => {
             <FaLinkedin size={28} />
           </a>
           <a
-            href="https://www.youtube.com/@gonzagramaglia"
+            href="https://www.youtube.com/@gonzalogramagia"
             target="_blank"
             rel="noopener noreferrer"
-            className="opacity-70 hover:opacity-100 mx-2"
+            className="text-secondary hover:text-white mx-2"
           >
-            <img src={youtube} className="w-9 h-9" />
+            <FaYoutube size={28} />
           </a>
           <a
-            href="https://github.com/gonzagramaglia"
+            href="https://github.com/gonzalogramagia"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-white mx-2"

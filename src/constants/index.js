@@ -18,14 +18,10 @@ import {
 
 export const navLinks = [
   {
-    id: "cv",
-    title: "Download CV",
-    url: true,
-  },
-  {
     id: "about",
     title: "About",
     url: false,
+    hideOnMobile: true,
   },
   {
     id: "works",
@@ -114,6 +110,27 @@ const technologies = [
 
 const projects = [
   {
+    name: "Movies",
+    description: `Basic yet modern app for browsing and discovering great movies`,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://i.ibb.co/VjWbLYh/movies.png",
+    live_demo_link: "https://movies.gonzalogramagia.com",
+    source_code_link: "https://github.com/gonzalogramagia/movies",
+  },
+  {
     name: "Todo",
     description: `Simple CRUD fullstack app`,
     tags: [
@@ -143,74 +160,8 @@ const projects = [
       },
     ],
     image: "https://i.postimg.cc/RZNP7Ws3/temp-Image2-BBn-F3.avif",
-    live_demo_link: "https://mern-todo-3a72.onrender.com",
-    source_code_link: "https://github.com/gonzagramaglia/mern-todo",
-  },
-  {
-    name: "Blog",
-    description: `Moderate CRUD fullstack app`,
-    tags: [
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "express",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "https://i.postimg.cc/XvKV64k7/mern-blog.png",
-    live_demo_link: "https://blog.gonza.gr/",
-    source_code_link: "https://github.com/gonzagramaglia/mern-blog",
-  },
-  {
-    name: "Ecommerce",
-    description: `Complex CRUD fullstack app`,
-    tags: [
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "express",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "stripe",
-        color: "green-text-gradient",
-      },
-      {
-        name: "createcontext-hook",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: "https://i.ibb.co/swy8x8L/mern-ecommerce.png",
-    live_demo_link: "https://ecommerce.gonza.gr",
-    source_code_link: "https://github.com/gonzagramaglia/mern-ecommerce",
+    live_demo_link: "https://todo.gonzalogramagia.com",
+    source_code_link: "https://github.com/gonzalogramagia/mern-todo",
   },
   {
     name: "Bookstore",
@@ -246,29 +197,8 @@ const projects = [
       },
     ],
     image: "https://i.ibb.co/GWXpWz2/bookstore.png",
-    live_demo_link: "https://bookstore.gonza.gr/",
-    source_code_link: "https://github.com/gonzagramaglia/bookstore",
-  },
-  {
-    name: "Movies",
-    description: `Basic yet modern app for browsing and discovering great movies`,
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "appwrite",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "https://i.ibb.co/VjWbLYh/movies.png",
-    live_demo_link: "https://movies.gonza.gr",
-    source_code_link: "https://github.com/gonzagramaglia/movies",
+    live_demo_link: "https://bookstore.gonzalogramagia.com/",
+    source_code_link: "https://github.com/gonzalogramagia/bookstore",
   },
 ];
 
