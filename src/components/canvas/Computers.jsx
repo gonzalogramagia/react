@@ -3,9 +3,10 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
+import { isWebGLAvailable } from "../../utils/isWebGLAvailable";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("/desktop_pc/scene.gltf");
 
   return (
     <mesh>
@@ -31,8 +32,11 @@ const Computers = ({ isMobile }) => {
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [webGLAvailable, setWebGLAvailable] = useState(true);
 
   useEffect(() => {
+    setWebGLAvailable(isWebGLAvailable());
+
     // Add a listener for changes to the screen size
     const mediaQuery = window.matchMedia("(max-width: 500px)");
 
@@ -52,6 +56,14 @@ const ComputersCanvas = () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
+
+  if (!webGLAvailable) {
+    return (
+      <div className="w-full h-full flex items-center justify-center text-white">
+        <p>WebGL is not available on your device.</p>
+      </div>
+    );
+  }
 
   return (
     <Canvas

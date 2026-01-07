@@ -1,4 +1,5 @@
-import React, { useEffect, Suspense } from "react";
+import React, { useEffect, Suspense, useState } from "react";
+import { isWebGLAvailable } from "../../utils/isWebGLAvailable";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -13,6 +14,19 @@ const Earth = () => {
 };
 
 const EarthCanvas = () => {
+  const [webGLAvailable, setWebGLAvailable] = useState(true);
+
+  useEffect(() => {
+    setWebGLAvailable(isWebGLAvailable());
+  }, []);
+
+  if (!webGLAvailable) {
+    return (
+      <div className="w-full h-full flex items-center justify-center text-white">
+        <p>WebGL is not available on your device.</p>
+      </div>
+    );
+  }
 
   return (
     <Canvas

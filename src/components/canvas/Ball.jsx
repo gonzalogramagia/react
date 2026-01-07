@@ -1,4 +1,5 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useState, useEffect } from "react";
+import { isWebGLAvailable } from "../../utils/isWebGLAvailable";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -38,6 +39,21 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
+  const [webGLAvailable, setWebGLAvailable] = useState(true);
+
+  useEffect(() => {
+    setWebGLAvailable(isWebGLAvailable());
+  }, []);
+
+  if (!webGLAvailable) {
+    return (
+      <div className="w-full h-full flex flex-col items-center justify-center">
+        <img src={icon} alt="technology icon" className="w-2/3 h-2/3 object-contain" />
+        <p className="text-white text-[14px] mt-2">WebGL is not available on your device.</p>
+      </div>
+    );
+  }
+
   return (
     <Canvas
       frameloop='demand'
