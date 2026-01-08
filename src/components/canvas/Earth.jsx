@@ -9,7 +9,7 @@ const Earth = ({ isMobile, isTablet, isExtraSmall }) => {
   const earth = useGLTF("./planet/scene.gltf");
 
   return (
-    <primitive object={earth.scene} scale={isExtraSmall ? 4 : isMobile ? 3.2 : isTablet ? 2.5 : 3} position-y={0} rotation-y={0} />
+    <primitive object={earth.scene} scale={isExtraSmall ? 4 : isMobile ? 3.2 : isTablet ? 2.5 : 3.0} position-y={0} rotation-y={0} />
   );
 };
 

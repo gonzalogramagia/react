@@ -67,7 +67,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`-mt-20 flex flex-col-reverse gap-10 overflow-hidden `}
+      className={`-mt-20 flex flex-col-reverse gap-10 `}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -141,7 +141,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[470px] h-[250px]"
+        className="xl:flex-1 xl:h-[700px] md:h-[550px] h-[350px]"
       >
         <ErrorBoundary fallback={null}>
           <EarthCanvas />
