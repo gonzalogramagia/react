@@ -10,9 +10,9 @@ import {
   typescriptwhite,
   nodejs,
   mongodb,
-  postgres,
+
   linux,
-  go,
+
   underconstruction,
 } from "../assets";
 
@@ -21,7 +21,7 @@ export const navLinks = [
     id: "about",
     title: "About",
     url: false,
-    hideOnMobile: true,
+    hideOnMobile: false,
   },
   {
     id: "works",
@@ -91,21 +91,13 @@ const technologies = [
     icon: linux,
     level: "70%",
   },
-  {
-    name: "Postgres",
-    icon: postgres,
-    level: "40%",
-  },
+
   {
     name: "MongoDB",
     icon: mongodb,
     level: "55%",
   },
-  {
-    name: "Go",
-    icon: go,
-    level: "70%",
-  },
+
 ];
 
 const projects = [
@@ -162,43 +154,6 @@ const projects = [
     image: "https://i.postimg.cc/RZNP7Ws3/temp-Image2-BBn-F3.avif",
     live_demo_link: "https://todo.gonzalogramagia.com",
     source_code_link: "https://github.com/gonzalogramagia/mern-todo",
-  },
-  {
-    name: "Bookstore",
-    description: `University books management system`,
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "postgres",
-        color: "green-text-gradient",
-      },
-      {
-        name: "redis",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "shadcn-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "https://i.ibb.co/GWXpWz2/bookstore.png",
-    live_demo_link: "https://bookstore.gonzalogramagia.com/",
-    source_code_link: "https://github.com/gonzalogramagia/bookstore",
   },
 ];
 

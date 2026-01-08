@@ -10,7 +10,7 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={3} groundColor='black' />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -59,8 +59,11 @@ const ComputersCanvas = () => {
 
   if (!webGLAvailable) {
     return (
-      <div className="w-full h-full flex items-center justify-center text-white">
-        <p>WebGL is not available on your device.</p>
+      <div className="w-full h-full flex flex-col items-center justify-center text-white relative z-10">
+        <p>WebGL is not available on your browser.</p>
+        <p className="mt-2">
+          Please visit <a href="https://webglreport.com/?v=2" target="_blank" rel="noreferrer" className="underline hover:text-blue-400">https://webglreport.com/?v=2</a> to check your WebGL status.
+        </p>
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 
-import { About, Contact, Hero, Navbar, Works, Footer } from './components';
+import { About, Contact, Hero, Navbar, Works, Footer, StarsCanvas } from './components';
 import ErrorBoundary from './components/ErrorBoundary';
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
         {/* <Skills /> */}
         <div className="relative z-0">
           <Contact />
-
+          <StarsCanvas />
         </div>
         <Footer />
       </div>

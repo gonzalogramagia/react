@@ -49,7 +49,7 @@ const BallCanvas = ({ icon }) => {
     return (
       <div className="w-full h-full flex flex-col items-center justify-center">
         <img src={icon} alt="technology icon" className="w-2/3 h-2/3 object-contain" />
-        <p className="text-white text-[14px] mt-2">WebGL is not available on your device.</p>
+        <p className="text-white text-[14px] mt-2">WebGL is not available on your browser.</p>
       </div>
     );
   }
