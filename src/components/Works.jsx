@@ -18,7 +18,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div className="bg-tertiary p-5 rounded-2xl w-[100%] sm:w-[360px]">
+    <motion.div className="bg-tertiary p-5 rounded-2xl w-[95%] sm:w-[360px] mx-auto">
       <div
         onClick={() => window.open(live_demo_link, "_blank")}
         className="cursor-pointer relative w-full h-[230px]"

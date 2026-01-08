@@ -68,7 +68,7 @@ const Contact = () => {
       className={`-mt-20 flex flex-col-reverse gap-10 `}
     >
       <div
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl xs:w-[90%] md:w-[80%] lg:w-[70%] w-[100%] mx-auto"
+        className="flex-[0.75] bg-black-100 p-8 rounded-2xl xs:w-[95%] md:w-[80%] lg:w-[65%] w-[95%] mx-auto"
       >
         <h3 className={styles.sectionHeadText}>Let's talk</h3>
         <p className={styles.sectionSubText}>
