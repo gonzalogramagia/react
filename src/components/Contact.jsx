@@ -1,12 +1,10 @@
 import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import ErrorBoundary from "./ErrorBoundary";
 import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
 
 const Contact = () => {
   const formRef = useRef();
@@ -69,8 +67,7 @@ const Contact = () => {
     <div
       className={`-mt-20 flex flex-col-reverse gap-10 `}
     >
-      <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
+      <div
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl xs:w-[90%] md:w-[80%] lg:w-[70%] w-[100%] mx-auto"
       >
         <h3 className={styles.sectionHeadText}>Let's talk</h3>
@@ -137,16 +134,15 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-      </motion.div>
+      </div>
 
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+      <div
         className="xl:flex-1 xl:h-[700px] md:h-[550px] h-[350px]"
       >
         <ErrorBoundary fallback={null}>
           <EarthCanvas />
         </ErrorBoundary>
-      </motion.div>
+      </div>
     </div>
   );
 };
