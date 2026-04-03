@@ -119,8 +119,8 @@ const projects = [
       },
     ],
     image: "https://i.ibb.co/VjWbLYh/movies.png",
-    live_demo_link: "https://movies.gonzalogramagia.com",
-    source_code_link: "https://github.com/gonzalogramagia/movies",
+    live_demo_link: "https://gonzalogramagia.github.io/project-movies",
+    source_code_link: "https://github.com/gonzalogramagia/project-movies",
   },
   {
     name: "Todo",
@@ -152,8 +152,8 @@ const projects = [
       },
     ],
     image: "https://i.postimg.cc/RZNP7Ws3/temp-Image2-BBn-F3.avif",
-    live_demo_link: "https://todo.gonzalogramagia.com",
-    source_code_link: "https://github.com/gonzalogramagia/mern-todo",
+    live_demo_link: "https://gonzalogramagia.github.io/project-mern-todo",
+    source_code_link: "https://github.com/gonzalogramagia/project-mern-todo",
   },
 ];
 
